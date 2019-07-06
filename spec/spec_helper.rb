@@ -1,3 +1,4 @@
+require './lib/highest_number.rb'
 require 'simplecov'
 require 'simplecov-console'
 
