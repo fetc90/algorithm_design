@@ -1,9 +1,17 @@
 # Algorithm Design 
 
-Specifition: Return the highest number from the list.
+Algorithms are a sequence of instructions that solve a given problem. But how do you come up with the instructions? The focus of this project is to:
+- Explain the process of creating algorithms
+- Use the process to create simple algorithms
 
-Plan:
-Create an input/output table to clarify specification: spot edge cases and cover all posibilties. Helps planning code. 
+---
+
+## Creating Algorithms
+
+Task: _Return the highest number from a list._
+### Clarify the Problem
+
+Create a table which details inputs and expected outputs for the function. This helps spot the edge cases and cover all posibilties.
 
 Input | Output
 - | - 
@@ -61,5 +69,7 @@ def highest_number(list)
 
     end      
 ```
-From here, write tests using Input/Output table.
+
+### Run Test Framework
+From here, write tests using the Input / Output table.
 

@@ -1,7 +1,7 @@
 # Returns highest integer from given array
 # Comments left in to show examples of getting visibility
 
-def highest_number(list)
+def highest_number_in_list(list)
   list.empty? ? current_maximum = list :
    current_maximum = list[0]
 
