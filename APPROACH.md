@@ -14,17 +14,19 @@ Task: _Return the highest number from a list._
 Create a table which details inputs and expected outputs for the function. This helps spot the edge cases and cover all posibilties.
 
 Input | Output
-- | - 
+----- | ----- 
 [ 1, 2, 3, 0, 3, 5 ] | 5
 [ -4, 10, -100, 1 ] | 10
 [ 2, 2, 2 ]| 2
 [ 9 ] | 9
 [ ] | [ ]
 
+
+
 ### Function Signature
 - Name of function: `highest_number_in_list(list)` 
 - Number of parameters method takes: 1
-- Return type: Integer
+- Return type: Integer or empty array
 
 How Would I Solve This (in Human)?
 ```
