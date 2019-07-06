@@ -11,12 +11,12 @@ describe 'highest_number' do
     expect(highest_number_in_list(list)).to eq(10)
   end 
 
-  it 'returns one number if array is duplicates' do 
+  it 'returns one number if there are duplicates' do 
     list = [2, 2, 2]
     expect(highest_number_in_list(list)).to eq(2)
   end 
 
-  it 'returns number array length is 1' do 
+  it 'returns number if length of array is 1' do 
     list = [9]
     expect(highest_number_in_list(list)).to eq(9)
   end 
