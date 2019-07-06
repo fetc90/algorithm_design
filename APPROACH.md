@@ -22,11 +22,11 @@ Input | Output
 [ ] | [ ]
 
 ### Function Signature
-Name of function: `highest_number_in_list(list)` 
-Number of parameters method takes: 1
-Return type: Integer
+- Name of function: `highest_number_in_list(list)` 
+- Number of parameters method takes: 1
+- Return type: Integer
 
-How Would I Solve This In Human?
+How Would I Solve This (in Human)?
 ```
 # Read through list, remember the highest number I see.
     # First number is current maximum
@@ -37,7 +37,7 @@ How Would I Solve This In Human?
             
 ```
     
-Translation To Code
+### Translation To Code
 
 If you cannot translate a line to one line of code, break the sentence down again until you can.
 

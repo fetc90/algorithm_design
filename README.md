@@ -19,8 +19,11 @@ Run the following in your computer's terminal:
 
 ```
 rspec 
-    => 5 examples, 0 failures
-    => Coverage: 100% 
+    => returns the highest number from given array
+    => returns one number if there are duplicates of highest number
+    => returns number if length of array is 1
+    => returns empty array if array is empty
+    => 4 examples, 0 failures, Coverage: 100% 
 ```
 ## Programme 
 
@@ -31,3 +34,8 @@ rspec
 - > highest_number_in_list(list)
   => <highest integer>
 ```
+---
+
+Note: The simplcity of this task really helped me slow down, stick to the process, and not be tempted to rush ahead with the code.
+
+This also improved my debugging as I focussed on getting visibility and explaining out loud what was happening in my code. I was able to pinpoint where and why I wasn't getting the output I expected, resolving the issue quickly and easily. 
